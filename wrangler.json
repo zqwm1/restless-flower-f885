@@ -1,0 +1,30 @@
+{
+  "name": "restless-flower-f885",
+  "main": "./dist/index.js",
+  "assets": {
+    "directory": "./dist"
+  },
+  "compatibility_date": "2025-04-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "observability": {
+    "enabled": true
+  },
+  "upload_source_maps": true,
+  "vars": {
+    "EXAMPLE_VALUE": "example_value"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "lively-queen-5f5b-d1",
+      "database_id": "adf94fc7-735d-4446-857d-330e5c849774"
+    }
+  ],
+  "workflows": [
+    {
+      "name": "restless-flower-f885-customer-workflow",
+      "binding": "CUSTOMER_WORKFLOW",
+      "class_name": "CustomerWorkflow"
+    }
+  ]
+}
